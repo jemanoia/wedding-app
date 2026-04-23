@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap');
 
 :root {
-  --bg: #fbf5ef;
-  --ink: #2f2a26;
-  --ink-soft: #6a5d53;
-  --panel: #fffaf4;
-  --border: #dacbbb;
-  --accent: #a56b4f;
-  --accent-soft: #f2dfd1;
+  --bg: #f6f1fb;
+  --ink: #2f2640;
+  --ink-soft: #625679;
+  --panel: #fdf9ff;
+  --border: #dccff0;
+  --accent: #9b7ad4;
+  --accent-soft: #efe6fb;
 }
 
 *,
@@ -27,8 +27,8 @@ body {
   font-family: 'Manrope', sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at 10% 5%, rgba(229, 190, 160, 0.22), transparent 32%),
-    radial-gradient(circle at 90% 95%, rgba(184, 215, 187, 0.25), transparent 35%),
+    radial-gradient(circle at 10% 5%, rgba(193, 166, 233, 0.24), transparent 32%),
+    radial-gradient(circle at 90% 95%, rgba(226, 198, 244, 0.26), transparent 35%),
     var(--bg);
 }
 
@@ -49,7 +49,7 @@ body {
 .texture-top {
   width: 220px;
   height: 220px;
-  background: linear-gradient(135deg, rgba(182, 217, 190, 0.55), rgba(255, 242, 230, 0.5));
+  background: linear-gradient(135deg, rgba(202, 176, 236, 0.58), rgba(245, 234, 255, 0.5));
   top: -40px;
   right: -35px;
 }
@@ -57,7 +57,7 @@ body {
 .texture-bottom {
   width: 180px;
   height: 180px;
-  background: linear-gradient(135deg, rgba(245, 209, 184, 0.7), rgba(255, 250, 244, 0.35));
+  background: linear-gradient(135deg, rgba(225, 194, 247, 0.7), rgba(249, 241, 255, 0.4));
   bottom: -55px;
   left: -20px;
 }
@@ -68,7 +68,7 @@ body {
   overflow: hidden;
   border-radius: 26px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 18px 42px rgba(95, 66, 45, 0.15);
+  box-shadow: 0 18px 42px rgba(74, 49, 104, 0.18);
 }
 
 .hero-image {
@@ -85,8 +85,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: linear-gradient(180deg, rgba(20, 15, 12, 0.2) 30%, rgba(20, 15, 12, 0.72) 100%);
-  color: #fdf7f2;
+  background: linear-gradient(180deg, rgba(30, 20, 43, 0.2) 30%, rgba(30, 20, 43, 0.72) 100%);
+  color: #fdf8ff;
 }
 
 .hero-kicker {
@@ -122,13 +122,14 @@ body {
   border-radius: 18px;
   background: var(--panel);
   border: 1px solid var(--border);
-  box-shadow: 0 8px 18px rgba(58, 40, 27, 0.08);
+  box-shadow: 0 8px 18px rgba(81, 58, 112, 0.1);
 }
 
 .detail-card h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.3rem, 2.8vw, 1.8rem);
   margin: 0 0 0.55rem;
+  color: var(--accent);
 }
 
 .detail-main {
@@ -165,7 +166,7 @@ body {
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.45);
-  box-shadow: 0 10px 22px rgba(54, 38, 26, 0.13);
+  box-shadow: 0 10px 22px rgba(73, 53, 104, 0.16);
   aspect-ratio: 4 / 5;
 }
 
@@ -185,8 +186,8 @@ body {
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid var(--border);
-  box-shadow: 0 12px 24px rgba(56, 40, 25, 0.11);
-  background: #f9f4ed;
+  box-shadow: 0 12px 24px rgba(76, 57, 108, 0.14);
+  background: #f7f1ff;
 }
 
 .map-frame iframe {

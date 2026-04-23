@@ -27,12 +27,12 @@ const galleryImages = [
 
 const weddingDetails = {
   title: 'Josh & Tine Wedding',
-  date: 'Saturday, June 21, 2026',
+  date: 'November 17, 2026',
   time: '4:00 PM',
-  venueName: 'The Glass Garden',
-  venueAddress: 'Pasig City, Metro Manila',
+  venueName: "Fruella's Event Venue Tagaytay",
+  venueAddress: '144 Daang Luma, Amadeo, Cavite',
   mapEmbedUrl:
-    'https://www.google.com/maps?q=The+Glass+Garden+Pasig+City&output=embed'
+    'https://www.google.com/maps?q=Fruella%27s+Event+Venue+Tagaytay%2C+144+Daang+Luma%2C+Amadeo%2C+Cavite&output=embed'
 };
 
 function App() {
